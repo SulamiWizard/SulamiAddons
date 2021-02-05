@@ -1,0 +1,144 @@
+[14:00:53] [Client thread/INFO]: Setting user: Player401
+[14:00:57] [Client thread/INFO]: LWJGL Version: 2.9.4
+[14:01:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SulamiAddons
+[14:01:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:01:03] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[14:01:03] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:01:03] [Thread-9/INFO]: OpenAL initialized.
+[14:01:03] [Sound Library Loader/INFO]: Sound engine started
+[14:01:09] [Client thread/INFO]: Created: 16x16 textures-atlas
+[14:01:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SulamiAddons
+[14:01:10] [Client thread/INFO]: SoundSystem shutting down...
+[14:01:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:01:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:01:11] [Thread-13/INFO]: Initializing LWJGL OpenAL
+[14:01:11] [Thread-13/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:01:11] [Thread-13/INFO]: OpenAL initialized.
+[14:01:11] [Sound Library Loader/INFO]: Sound engine started
+[14:01:17] [Client thread/INFO]: Created: 512x512 textures-atlas
+[14:01:43] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[14:01:43] [Server thread/INFO]: Generating keypair
+[14:01:43] [Server thread/INFO]: Preparing start region for level 0
+[14:01:44] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:01:45] [Server thread/INFO]: Player401[local:E:78a4f123] logged in with entity id 229 at (-278.0190835241256, 27.93196971119422, -475.97963652684894)
+[14:01:45] [Server thread/INFO]: Player401 joined the game
+[14:01:53] [Thread-17/INFO]: [CHAT] §acod_is_thebest
+[14:01:53] [Thread-17/INFO]: [CHAT] §aGokunSal
+[14:01:53] [Thread-17/INFO]: [CHAT] §aCod_is_thebest
+[14:01:53] [Thread-17/INFO]: [CHAT] §aSulamiWizard
+[14:01:53] [Thread-17/INFO]: [CHAT] §aFattybutabaddie
+[14:01:53] [Thread-17/INFO]: [CHAT] §aBasicFatty_
+[14:01:53] [Thread-17/INFO]: [CHAT] §amaseeh
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aFurude_Hanyuu
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aHanyuuFurudeSama
+[14:02:03] [Thread-18/INFO]: [CHAT] §aShrillyWraith
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aFear_Hanyuu
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aFear__Kubrick
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aShrillyWarden
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aHainiryuun_Jieda
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §a106rawyllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aOyashiroSama
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSillyWar
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSurelyShrillyWar
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aShrillyWarWicked
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aShirleyWraith
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §asILLYWAR601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSillyWarden
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aShirleyWarden
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aShirleyWarWicked
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §a5i11yw4rGOI
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSeriousWar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aR_A_Wyllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSeriousWar
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSillyPeace601
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSchlieren
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSeriousPeace
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aChillyWreath
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §arawyllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aWillySar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSoreWilly601
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aRawAmaryllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSillyramaWar
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aRawAnthyllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillyhtnawar
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §a106Amaryllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §a106Anthyllis
+[14:02:03] [Thread-18/INFO]: [CHAT] §asillywar601
+[14:02:03] [Thread-18/INFO]: [CHAT] §aI_Wanted_To_Stop
+[14:02:03] [Thread-18/INFO]: [CHAT] §aN_I_C_E_
+[14:02:03] [Thread-18/INFO]: [CHAT] §aSpookyWraith
+[14:02:03] [Thread-18/INFO]: [CHAT] §aWillyWar
+[14:02:03] [Thread-18/INFO]: [CHAT] §aChillyWraith
+[14:02:03] [Thread-18/INFO]: [CHAT] §aToo_Much_Genshin
+[14:02:12] [Server thread/INFO]: Saving and pausing game...
+[14:02:12] [Server thread/INFO]: Saving chunks for level 'Test1'/Overworld
+[14:02:12] [Server thread/INFO]: Saving chunks for level 'Test1'/Nether
+[14:02:12] [Server thread/INFO]: Saving chunks for level 'Test1'/The End
+[14:02:14] [Server thread/INFO]: Saving and pausing game...
+[14:02:14] [Server thread/INFO]: Saving chunks for level 'Test1'/Overworld
+[14:02:14] [Server thread/INFO]: Saving chunks for level 'Test1'/Nether
+[14:02:14] [Server thread/INFO]: Saving chunks for level 'Test1'/The End
+[14:02:23] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[14:02:24] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[14:02:25] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[14:02:27] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[14:02:32] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[14:02:45] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[14:02:48] [Client thread/INFO]: [CHAT] --- Showing help page 1 of 7 (/help <page>) ---
+[14:02:48] [Client thread/INFO]: [CHAT] /achievement <give|take> <stat_name|*> [player]
+[14:02:48] [Client thread/INFO]: [CHAT] /blockdata <x> <y> <z> <dataTag>
+[14:02:48] [Client thread/INFO]: [CHAT] /clear [player] [item] [data] [maxCount] [dataTag]
+[14:02:48] [Client thread/INFO]: [CHAT] /clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode]
+[14:02:48] [Client thread/INFO]: [CHAT] /debug <start|stop>
+[14:02:48] [Client thread/INFO]: [CHAT] /defaultgamemode <mode>
+[14:02:48] [Client thread/INFO]: [CHAT] /difficulty <new difficulty>
+[14:02:48] [Client thread/INFO]: [CHAT] Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[14:02:52] [Server thread/INFO]: Saving and pausing game...
+[14:02:52] [Server thread/INFO]: Saving chunks for level 'Test1'/Overworld
+[14:02:52] [Server thread/INFO]: Saving chunks for level 'Test1'/Nether
+[14:02:52] [Server thread/INFO]: Saving chunks for level 'Test1'/The End
+[14:03:12] [Server thread/INFO]: Saving and pausing game...
+[14:03:12] [Server thread/INFO]: Saving chunks for level 'Test1'/Overworld
+[14:03:12] [Server thread/INFO]: Saving chunks for level 'Test1'/Nether
+[14:03:12] [Server thread/INFO]: Saving chunks for level 'Test1'/The End
+[14:03:17] [Server thread/INFO]: Stopping server
+[14:03:17] [Server thread/INFO]: Saving players
+[14:03:17] [Server thread/INFO]: Saving worlds
+[14:03:17] [Server thread/INFO]: Saving chunks for level 'Test1'/Overworld
+[14:03:17] [Server thread/INFO]: Saving chunks for level 'Test1'/Nether
+[14:03:17] [Server thread/INFO]: Saving chunks for level 'Test1'/The End
+[14:07:26] [Client thread/INFO]: Stopping!
+[14:07:26] [Client thread/INFO]: SoundSystem shutting down...
+[14:07:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

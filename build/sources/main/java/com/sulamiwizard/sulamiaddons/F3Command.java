@@ -5,20 +5,21 @@ import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 
-public class DungCommand extends CommandBase {
+public class F3Command extends CommandBase {
+
     @Override
     public String getCommandName() {
-        return "dung";
+        return "f3";
     }
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "";
+        return null;
     }
 
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
-        Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp dungeon_hub");
+        Minecraft.getMinecraft().thePlayer.sendChatMessage("/joindungeon CATACOMBS 3");
     }
 
     @Override

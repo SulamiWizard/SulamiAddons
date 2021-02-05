@@ -1,0 +1,564 @@
+Symbol range map extraction starting
+Processing 15 files
+processing com\sulamiwizard\sulamiaddons\AutoJoinSkyblock.java
+@|com\sulamiwizard\sulamiaddons\AutoJoinSkyblock.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.AutoJoinSkyblock
+Class End  : com.sulamiwizard.sulamiaddons.AutoJoinSkyblock
+endProcessing com\sulamiwizard\sulamiaddons\AutoJoinSkyblock.java
+
+processing com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java
+@|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand
+   @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|274|280|Thread|class|java.lang.Thread
+   @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|281|294|commandThread|field|com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand|commandThread|
+   @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|301|307|Thread|class|java.lang.Thread
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|344|358|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|337|343|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|423|438|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|416|422|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|439|453|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|454|460|sender|param|com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|520|534|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|580|596|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|535|549|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|550|556|sender|param|com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|558|564|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|567|571|args|param|com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|615|621|Thread|class|java.lang.Thread
+      Anon Class Start: com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand$1
+         Method Start: run()V
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|654|657|run|method|java.lang.Runnable|run|()V
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|712|721|Minecraft|class|net.minecraft.client.Minecraft
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|722|734|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|737|746|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|747|762|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|801|807|Thread|class|java.lang.Thread
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|808|813|sleep|method|java.lang.Thread|sleep|(J)V
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|844|853|Minecraft|class|net.minecraft.client.Minecraft
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|854|866|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|869|878|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|879|894|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|938|958|InterruptedException|class|java.lang.InterruptedException
+            @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|990|1005|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+         Method End: run()V
+      Anon Class End: com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand$1
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|1051|1056|start|method|java.lang.Thread|start|()V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java|1096|1122|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand
+endProcessing com\sulamiwizard\sulamiaddons\DoubleHubWarpCommand.java
+
+processing com\sulamiwizard\sulamiaddons\DungCommand.java
+@|com\sulamiwizard\sulamiaddons\DungCommand.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.DungCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|293|307|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|286|292|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|374|389|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|367|373|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|390|404|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|405|411|sender|param|com.sulamiwizard.sulamiaddons.DungCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|471|485|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|531|547|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|486|500|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|501|507|sender|param|com.sulamiwizard.sulamiaddons.DungCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|509|515|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|518|522|args|param|com.sulamiwizard.sulamiaddons.DungCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|558|567|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|568|580|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|583|592|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|593|608|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\DungCommand.java|667|693|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.DungCommand
+endProcessing com\sulamiwizard\sulamiaddons\DungCommand.java
+
+processing com\sulamiwizard\sulamiaddons\F1Command.java
+@|com\sulamiwizard\sulamiaddons\F1Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F1Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F1Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F1Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F1Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F1Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F1Command
+endProcessing com\sulamiwizard\sulamiaddons\F1Command.java
+
+processing com\sulamiwizard\sulamiaddons\F2Command.java
+@|com\sulamiwizard\sulamiaddons\F2Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F2Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F2Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F2Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F2Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F2Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F2Command
+endProcessing com\sulamiwizard\sulamiaddons\F2Command.java
+
+processing com\sulamiwizard\sulamiaddons\F3Command.java
+@|com\sulamiwizard\sulamiaddons\F3Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F3Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F3Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F3Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F3Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F3Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F3Command
+endProcessing com\sulamiwizard\sulamiaddons\F3Command.java
+
+processing com\sulamiwizard\sulamiaddons\F4Command.java
+@|com\sulamiwizard\sulamiaddons\F4Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F4Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F4Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F4Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F4Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F4Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F4Command
+endProcessing com\sulamiwizard\sulamiaddons\F4Command.java
+
+processing com\sulamiwizard\sulamiaddons\F5Command.java
+@|com\sulamiwizard\sulamiaddons\F5Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F5Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F5Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F5Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F5Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F5Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F5Command
+endProcessing com\sulamiwizard\sulamiaddons\F5Command.java
+
+processing com\sulamiwizard\sulamiaddons\F6Command.java
+@|com\sulamiwizard\sulamiaddons\F6Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F6Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F6Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F6Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F6Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F6Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F6Command
+endProcessing com\sulamiwizard\sulamiaddons\F6Command.java
+
+processing com\sulamiwizard\sulamiaddons\F7Command.java
+@|com\sulamiwizard\sulamiaddons\F7Command.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.F7Command
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|292|306|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|285|291|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|371|386|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|364|370|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|387|401|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|402|408|sender|param|com.sulamiwizard.sulamiaddons.F7Command|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|470|484|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|530|546|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|485|499|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|500|506|sender|param|com.sulamiwizard.sulamiaddons.F7Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|508|514|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|517|521|args|param|com.sulamiwizard.sulamiaddons.F7Command|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|582|591|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|592|607|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\F7Command.java|673|699|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.F7Command
+endProcessing com\sulamiwizard\sulamiaddons\F7Command.java
+
+processing com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java
+@|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.GuildOnlineCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|301|315|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|294|300|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|380|395|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|373|379|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|396|410|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|411|417|sender|param|com.sulamiwizard.sulamiaddons.GuildOnlineCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|479|493|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|539|555|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|494|508|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|509|515|sender|param|com.sulamiwizard.sulamiaddons.GuildOnlineCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|517|523|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|526|530|args|param|com.sulamiwizard.sulamiaddons.GuildOnlineCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|566|575|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|576|588|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|591|600|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|601|616|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java|671|697|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.GuildOnlineCommand
+endProcessing com\sulamiwizard\sulamiaddons\GuildOnlineCommand.java
+
+processing com\sulamiwizard\sulamiaddons\LDungCommand.java
+@|com\sulamiwizard\sulamiaddons\LDungCommand.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.LDungCommand
+   @|com\sulamiwizard\sulamiaddons\LDungCommand.java|266|272|Thread|class|java.lang.Thread
+   @|com\sulamiwizard\sulamiaddons\LDungCommand.java|273|286|commandThread|field|com.sulamiwizard.sulamiaddons.LDungCommand|commandThread|
+   @|com\sulamiwizard\sulamiaddons\LDungCommand.java|293|299|Thread|class|java.lang.Thread
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|336|350|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|329|335|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|417|432|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|410|416|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|433|447|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|448|454|sender|param|com.sulamiwizard.sulamiaddons.LDungCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|514|528|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|574|590|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|529|543|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|544|550|sender|param|com.sulamiwizard.sulamiaddons.LDungCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|552|558|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|561|565|args|param|com.sulamiwizard.sulamiaddons.LDungCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\LDungCommand.java|1115|1141|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.LDungCommand
+endProcessing com\sulamiwizard\sulamiaddons\LDungCommand.java
+
+processing com\sulamiwizard\sulamiaddons\NameCommand.java
+@|com\sulamiwizard\sulamiaddons\NameCommand.java|9|38|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.NameCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|479|493|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|472|478|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|560|575|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|553|559|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|576|590|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|591|597|sender|param|com.sulamiwizard.sulamiaddons.NameCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|657|671|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|729|745|CommandException|class|net.minecraft.command.CommandException
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|678|692|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|693|699|sender|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|707|713|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|716|720|args|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|759|763|args|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|794|800|Thread|class|java.lang.Thread
+      Anon Class Start: com.sulamiwizard.sulamiaddons.NameCommand$1
+         Method Start: run()V
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|859|862|run|method|java.lang.Runnable|run|()V
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|888|898|JsonObject|class|com.google.gson.JsonObject
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|910|915|Utils|class|com.sulamiwizard.sulamiaddons.Utils
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|916|931|getJsonResponse|method|com.sulamiwizard.sulamiaddons.Utils|getJsonResponse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|985|989|args|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|994|1009|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1045|1048|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1084|1090|sender|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1091|1105|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1110|1127|ChatComponentText|class|net.minecraft.util.ChatComponentText
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1128|1146|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1147|1152|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1176|1179|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1196|1207|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1300|1303|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1336|1342|sender|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1343|1357|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1362|1379|ChatComponentText|class|net.minecraft.util.ChatComponentText
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1380|1398|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1399|1404|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1484|1493|JsonArray|class|com.google.gson.JsonArray
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1506|1511|Utils|class|com.sulamiwizard.sulamiaddons.Utils
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1512|1527|getJsonResponse|method|com.sulamiwizard.sulamiaddons.Utils|getJsonResponse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1579|1582|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1589|1600|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1615|1629|getAsJsonArray|method|com.google.gson.JsonElement|getAsJsonArray|()Lcom/google/gson/JsonArray;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1658|1666|Iterator|class|java.util.Iterator
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1667|1678|JsonElement|class|com.google.gson.JsonElement
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1695|1703|iterator|method|java.lang.Iterable|iterator|()Ljava/util/Iterator;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1710|1717|hasNext|method|java.util.Iterator|hasNext|()Z
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1749|1759|JsonObject|class|com.google.gson.JsonObject
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1776|1780|next|method|java.util.Iterator|next|()Ljava/lang/Object;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1783|1798|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1840|1843|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1882|1888|sender|param|com.sulamiwizard.sulamiaddons.NameCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1889|1903|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1908|1925|ChatComponentText|class|net.minecraft.util.ChatComponentText
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1926|1944|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1945|1950|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1964|1967|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|com\sulamiwizard\sulamiaddons\NameCommand.java|1976|1987|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+         Method End: run()V
+      Anon Class End: com.sulamiwizard.sulamiaddons.NameCommand$1
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|2073|2078|start|method|java.lang.Thread|start|()V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\sulamiwizard\sulamiaddons\NameCommand.java|2129|2155|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.sulamiwizard.sulamiaddons.NameCommand
+endProcessing com\sulamiwizard\sulamiaddons\NameCommand.java
+
+processing com\sulamiwizard\sulamiaddons\SulamiAddons.java
+@|com\sulamiwizard\sulamiaddons\SulamiAddons.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.SulamiAddons
+   @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|545|551|String|class|java.lang.String
+   @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|552|557|MODID|field|com.sulamiwizard.sulamiaddons.SulamiAddons|MODID|
+   @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|600|606|String|class|java.lang.String
+   @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|607|614|VERSION|field|com.sulamiwizard.sulamiaddons.SulamiAddons|VERSION|
+   @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|648|654|String|class|java.lang.String
+   @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|655|659|NAME|field|com.sulamiwizard.sulamiaddons.SulamiAddons|NAME|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|713|720|preInit|method|com.sulamiwizard.sulamiaddons.SulamiAddons|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|721|746|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|747|752|event|param|com.sulamiwizard.sulamiaddons.SulamiAddons|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|797|801|init|method|com.sulamiwizard.sulamiaddons.SulamiAddons|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|802|824|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|825|830|event|param|com.sulamiwizard.sulamiaddons.SulamiAddons|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|841|861|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|862|870|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|871|886|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|891|903|LDungCommand|class|com.sulamiwizard.sulamiaddons.LDungCommand
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|916|936|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|937|945|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|946|961|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|966|977|DungCommand|class|com.sulamiwizard.sulamiaddons.DungCommand
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|990|1010|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1011|1019|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1020|1035|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1040|1051|NameCommand|class|com.sulamiwizard.sulamiaddons.NameCommand
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1064|1084|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1085|1093|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1094|1109|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1114|1132|GuildOnlineCommand|class|com.sulamiwizard.sulamiaddons.GuildOnlineCommand
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1145|1165|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1166|1174|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1175|1190|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1195|1215|DoubleHubWarpCommand|class|com.sulamiwizard.sulamiaddons.DoubleHubWarpCommand
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1228|1248|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1249|1257|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1258|1273|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1278|1287|F1Command|class|com.sulamiwizard.sulamiaddons.F1Command
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1300|1320|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1321|1329|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1330|1345|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1350|1359|F2Command|class|com.sulamiwizard.sulamiaddons.F2Command
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1372|1392|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1393|1401|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1402|1417|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1422|1431|F3Command|class|com.sulamiwizard.sulamiaddons.F3Command
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1444|1464|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1465|1473|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1474|1489|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1494|1503|F4Command|class|com.sulamiwizard.sulamiaddons.F4Command
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1516|1536|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1537|1545|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1546|1561|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1566|1575|F5Command|class|com.sulamiwizard.sulamiaddons.F5Command
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1588|1608|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1609|1617|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1618|1633|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1638|1647|F6Command|class|com.sulamiwizard.sulamiaddons.F6Command
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1660|1680|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1681|1689|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1690|1705|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1710|1719|F7Command|class|com.sulamiwizard.sulamiaddons.F7Command
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1765|1773|postInit|method|com.sulamiwizard.sulamiaddons.SulamiAddons|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1774|1800|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\sulamiwizard\sulamiaddons\SulamiAddons.java|1801|1806|event|param|com.sulamiwizard.sulamiaddons.SulamiAddons|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.sulamiwizard.sulamiaddons.SulamiAddons
+endProcessing com\sulamiwizard\sulamiaddons\SulamiAddons.java
+
+processing com\sulamiwizard\sulamiaddons\Utils.java
+@|com\sulamiwizard\sulamiaddons\Utils.java|8|37|com.sulamiwizard.sulamiaddons|package|com.sulamiwizard.sulamiaddons|(file)
+Class Start: com.sulamiwizard.sulamiaddons.Utils
+   Method Start: getResponse(Ljava/lang/String;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|395|406|getResponse|method|com.sulamiwizard.sulamiaddons.Utils|getResponse|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|388|394|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\Utils.java|407|413|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\Utils.java|414|424|url_string|param|com.sulamiwizard.sulamiaddons.Utils|getResponse|(Ljava/lang/String;)Ljava/lang/String;|url_string|0
+      @|com\sulamiwizard\sulamiaddons\Utils.java|436|448|StringBuffer|class|java.lang.StringBuffer
+      @|com\sulamiwizard\sulamiaddons\Utils.java|467|484|HttpURLConnection|class|java.net.HttpURLConnection
+      @|com\sulamiwizard\sulamiaddons\Utils.java|498|509|IOException|class|java.io.IOException
+      @|com\sulamiwizard\sulamiaddons\Utils.java|549|552|URL|class|java.net.URL
+      @|com\sulamiwizard\sulamiaddons\Utils.java|563|566|URL|class|java.net.URL
+      @|com\sulamiwizard\sulamiaddons\Utils.java|567|577|url_string|param|com.sulamiwizard.sulamiaddons.Utils|getResponse|(Ljava/lang/String;)Ljava/lang/String;|url_string|0
+      @|com\sulamiwizard\sulamiaddons\Utils.java|600|617|HttpURLConnection|class|java.net.HttpURLConnection
+      @|com\sulamiwizard\sulamiaddons\Utils.java|623|637|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|657|673|setRequestMethod|method|java.net.HttpURLConnection|setRequestMethod|(Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\Utils.java|698|716|setRequestProperty|method|java.net.URLConnection|setRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|com\sulamiwizard\sulamiaddons\Utils.java|761|775|BufferedReader|class|java.io.BufferedReader
+      @|com\sulamiwizard\sulamiaddons\Utils.java|785|799|BufferedReader|class|java.io.BufferedReader
+      @|com\sulamiwizard\sulamiaddons\Utils.java|804|821|InputStreamReader|class|java.io.InputStreamReader
+      @|com\sulamiwizard\sulamiaddons\Utils.java|826|840|getInputStream|method|java.net.URLConnection|getInputStream|()Ljava/io/InputStream;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|873|885|StringBuffer|class|java.lang.StringBuffer
+      @|com\sulamiwizard\sulamiaddons\Utils.java|902|908|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\Utils.java|955|963|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1003|1009|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1051|1056|close|method|java.lang.AutoCloseable|close|()V
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1088|1096|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1117|1128|IOException|class|java.io.IOException
+   Method End: getResponse(Ljava/lang/String;)Ljava/lang/String;
+   Method Start: getJsonResponse(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1206|1221|getJsonResponse|method|com.sulamiwizard.sulamiaddons.Utils|getJsonResponse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1194|1205|JsonElement|class|com.google.gson.JsonElement
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1222|1228|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1229|1232|url|param|com.sulamiwizard.sulamiaddons.Utils|getJsonResponse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;|url|0
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1262|1268|String|class|java.lang.String
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1280|1291|getResponse|method|com.sulamiwizard.sulamiaddons.Utils|getResponse|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1292|1295|url|param|com.sulamiwizard.sulamiaddons.Utils|getJsonResponse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;|url|0
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1343|1353|JsonObject|class|com.google.gson.JsonObject
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1380|1390|JsonParser|class|com.google.gson.JsonParser
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1393|1398|parse|method|com.google.gson.JsonParser|parse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1427|1436|Exception|class|java.lang.Exception
+      @|com\sulamiwizard\sulamiaddons\Utils.java|1465|1475|JsonObject|class|com.google.gson.JsonObject
+   Method End: getJsonResponse(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+Class End  : com.sulamiwizard.sulamiaddons.Utils
+endProcessing com\sulamiwizard\sulamiaddons\Utils.java
+

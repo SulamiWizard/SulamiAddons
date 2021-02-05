@@ -20,6 +20,7 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
+sourceCompatibility = targetCompatibility = 1.8
 version = "1.0"
 group= "com.sulamiwizard.sulamiaddons" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "sulamiaddons"
