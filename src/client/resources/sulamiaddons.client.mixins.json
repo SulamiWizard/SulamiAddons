@@ -3,7 +3,7 @@
 	"package": "com.sulamiaddons.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+      "SulamiClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
