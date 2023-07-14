@@ -1,5 +1,7 @@
 {
   "item.sulamiaddons.adamantite_ingot": "Adamantite Ingot",
   "item.sulamiaddons.raw_adamantite": "Raw Adamantite",
-  "item.sulamiaddons.refined_adamantite": "Refined Adamantite"
+  "block.sulamiaddons.adamantite_ore": "Adamantite Ore",
+  "block.sulamiaddons.adamantite_block": "Block of Adamantite",
+  "itemgroup.item_group": "SulamiAddons"
 }
