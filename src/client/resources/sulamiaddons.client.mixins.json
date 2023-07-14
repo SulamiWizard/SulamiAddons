@@ -1,11 +1,11 @@
 {
-	"required": true,
-	"package": "com.sulamiaddons.mixin.client",
-	"compatibilityLevel": "JAVA_17",
-	"client": [
-      "SulamiClientMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "package": "com.sulamiaddons.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "SulamiClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
